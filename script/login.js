@@ -14,4 +14,4 @@ document.getElementById("login-btn").addEventListener("click",function(event){
         alert("Please enter a valid account number");
     }
     
-})
+});

@@ -39,11 +39,11 @@
                 <img class="mx-auto" src="assets/wallet1.png" alt="">
                 <p>Add Money</p>
             </div>
-            <div class=" box-border p-4 rounded-lg bg-slate-200 text-center cursor-pointer">
+            <div id="cashout-card" class=" box-border p-4 rounded-lg bg-slate-200 text-center cursor-pointer">
                 <img class="mx-auto" src="assets/send1.png" alt="">
                 <p>Cashout</p>
             </div>
-            <div class=" box-border p-4 rounded-lg bg-slate-200 text-center cursor-pointer">
+            <div id="transfer-card" class=" box-border p-4 rounded-lg bg-slate-200 text-center cursor-pointer">
                 <img class="mx-auto" src="assets/money1.png" alt="">
                 <p>Transfer Money</p>
             </div>
@@ -61,7 +61,7 @@
             </div>
         </section>
         <!-- Add money section -->
-        <section class="mt-6">
+        <section id="add-money-section" class="mt-6">
             <h1 class="font-bold">Add Money</h1>
             <div class="card bg-base-100 w-full max-w-sm shrink-0 mx-auto shadow-lg">
                 <div class="card-body">
@@ -85,7 +85,7 @@
             </div>
         </section>
         <!-- Cash Out Section -->
-        <section class="mt-6">
+        <section id="cashout-section" class="mt-6">
             <h1 class="font-bold">Cash Out</h1>
             <div class="card bg-base-100 w-full max-w-sm shrink-0  mx-auto shadow-lg">
                 <div class="card-body">
@@ -102,6 +102,7 @@
             </div>
         </section>
     </main>
+    <script src="utils/toggle.js"></script>
     <script src="script/addMoney.js"></script>
     <script src="utils/utils.js"></script>
 </body>

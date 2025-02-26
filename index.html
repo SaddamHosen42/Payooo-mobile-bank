@@ -17,19 +17,21 @@
             <img class=" max-w-72" src="assets/bg.png" alt="">
             <img class=" absolute top-7" src="assets/Group.png" alt="">
         </div>
-        <!-- form section -->
+        <!-- login form section -->
              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto -mt-30">
                  <div class="card-body">
                      <fieldset class="fieldset">
                          <label class=" font-bold text-sm">Mobile Number</label>
-                         <input type="text" class="input" placeholder="Enter Your Number" />
-                         <label class="font-bold text-sm">4-Digit-PIN</label>
-                         <input type="text" class="input" placeholder="Enter 4-digit-PIN" />
-                         <button class="btn mt-4 bg-blue-800 text-white rounded-full">Login</button>
+                         <input id="account-number" type="text" class="input" placeholder="Enter Your Number" />
+                         <label class="font-bold text-sm">4 Digit Pin</label>
+                         <input id="pin-number" type="text" class="input" placeholder="Enter 4-digit-PIN" />
+                         <button id="login-btn" class="btn mt-4 bg-blue-800 text-white rounded-full">Login</button>
                      </fieldset>
                  </div>
              </div>
     </section>
+    <script src="script/login.js"></script>
+    <script src="utils/utils.js"></script>
 </body>
 
 </html>
